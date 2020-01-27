@@ -11,20 +11,15 @@
 class Orders {
     BufferData* Valve(BufferData& args);
     BufferData* Suck(BufferData& args);
-    BufferData* LiftUp(BufferData& args);
-    BufferData* LiftDown(BufferData& args);
+
+#if defined(main)
     BufferData* Gate(BufferData& args);
-    BufferData* GateClose(BufferData& args);
-    BufferData* FlagUp(BufferData& args);
-    BufferData* FlagDown(BufferData& args);
+    registerRPC(Gate,3);
+#endif
 
     registerRPC(Valve,1);
     registerRPC(Suck,2);
-    registerRPC(LiftUp,3);
-    registerRPC(LiftDown,4);
-    registerRPC(Gate,5);
-    registerRPC(FlagUp,7);
-    registerRPC(FlagDown,8);
+
 };
 
 

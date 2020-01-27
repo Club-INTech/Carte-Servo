@@ -65,14 +65,18 @@ BufferData* Suck(BufferData& args) {
 }
 
 
+#if defined(main)
+
 BufferData* Gate(BufferData& args) {
     uint8_t angle;
     getData<uint8_t>(angle, &args);
-    servo_gate_droite.write(angle);
-    servo_gate_gauche.write(angle);
+    servo_gate_droite->write(angle);
+    servo_gate_gauche->write(angle);
 
     return nullptr;
 }
+
+#endif
 
 
 
