@@ -6,21 +6,17 @@
 #define CARTE_SERVO_ORDERS_H
 #include "PinMapping.h"
 #include "Arduino.h"
+#include "I2CC.h"
 #include <Servo.h>
 
-class Orders {
-    BufferData* Valve(BufferData& args);
-    BufferData* Suck(BufferData& args);
+using namespace I2CC;
+
+BufferedData* Valve(BufferedData& args);
+BufferedData* Suck(BufferedData& args);
 
 #if defined(main)
-    BufferData* Gate(BufferData& args);
-    registerRPC(Gate,3);
+BufferedData* Gate(BufferedData& args);
 #endif
-
-    registerRPC(Valve,1);
-    registerRPC(Suck,2);
-
-};
 
 
 #endif //CARTE_SERVO_ORDERS_H

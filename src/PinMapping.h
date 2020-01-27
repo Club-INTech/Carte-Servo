@@ -5,6 +5,7 @@
 #ifndef CARTE_SERVO_PINMAPPING_H
 #define CARTE_SERVO_PINMAPPING_H
 
+#include "Arduino.h"
 
 #if defined(main)
 
@@ -42,18 +43,6 @@ const uint8_t PUMP_3 = 0;
 const uint8_t PUMP_4 = 0;
 const uint8_t PUMP_5 = 0;
 
-pinMode(VALVE_0, OUTPUT);
-pinMode(VALVE_1, OUTPUT);
-pinMode(VALVE_2, OUTPUT);
-pinMode(VALVE_3, OUTPUT);
-pinMode(VALVE_4, OUTPUT);
-pinMode(VALVE_5, OUTPUT);
 
-pinMode(PUMP_0, OUTPUT);
-pinMode(PUMP_1, OUTPUT);
-pinMode(PUMP_2, OUTPUT);
-pinMode(PUMP_3, OUTPUT);
-pinMode(PUMP_4, OUTPUT);
-pinMode(PUMP_5, OUTPUT);
 
 #endif //CARTE_SERVO_PINMAPPING_H

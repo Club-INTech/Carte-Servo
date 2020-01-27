@@ -36,10 +36,11 @@
 				<Compiler>
 					<Add directory="/home/louis/Git/Carte-Servo/include"/>
 					<Add directory="/home/louis/Git/Carte-Servo/src"/>
+					<Add directory="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src"/>
 					<Add directory="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src"/>
+					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/variants/standard"/>
-					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"/>
 					<Add directory="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src"/>
@@ -77,10 +78,11 @@
 				<Compiler>
 					<Add directory="/home/louis/Git/Carte-Servo/include"/>
 					<Add directory="/home/louis/Git/Carte-Servo/src"/>
+					<Add directory="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src"/>
 					<Add directory="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src"/>
+					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/variants/standard"/>
-					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"/>
 					<Add directory="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src"/>
 					<Add directory="/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src"/>
@@ -364,6 +366,78 @@
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/.library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/examples/Knob/Knob.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/examples/Sweep/Sweep.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/Servo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/ServoTimers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/src/Orders.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/src/Orders.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/louis/Git/Carte-Servo/src/PinMapping.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/home/louis/Git/Carte-Servo/src/main.cpp">

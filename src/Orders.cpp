@@ -4,7 +4,7 @@
 
 #include "Orders.h"
 
-BufferData* Valve(BufferData& args) {
+BufferedData* Valve(BufferedData& args) {
 
     uint8_t idValve;
     getData<uint8_t>(idValve, &args);
@@ -35,7 +35,7 @@ BufferData* Valve(BufferData& args) {
 }
 
 
-BufferData* Suck(BufferData& args) {
+BufferedData* Suck(BufferedData& args) {
     uint8_t idValve;
     getData<uint8_t>(idValve, &args);
     bool state;
@@ -67,7 +67,7 @@ BufferData* Suck(BufferData& args) {
 
 #if defined(main)
 
-BufferData* Gate(BufferData& args) {
+BufferedData* Gate(BufferedData& args) {
     uint8_t angle;
     getData<uint8_t>(angle, &args);
     servo_gate_droite->write(angle);

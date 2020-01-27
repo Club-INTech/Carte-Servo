@@ -16,6 +16,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o"
   "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o"
   "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o"
+  "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o"
+  "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o"
+  "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o"
+  "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o"
+  "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o"
+  "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o"
+  "/home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o"
+  "/home/louis/Git/Carte-Servo/src/Orders.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o"
   "/home/louis/Git/Carte-Servo/src/main.cpp" "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -24,10 +32,11 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../src"
+  "../.pio/libdeps/ATmega328P/Servo_ID883/src"
   "../.pio/libdeps/ATmega328P/I2C-Callables/src"
+  "/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"
   "/home/louis/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore"
   "/home/louis/.platformio/packages/framework-arduino-avr-minicore/variants/standard"
-  "/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"
   "../.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src"
   "/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src"
   "/home/louis/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src"
