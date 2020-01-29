@@ -1,4 +1,4 @@
-# Install script for directory: /home/louis/Git/Carte-Servo
+# Install script for directory: /home/jasmin/Documents/Intech/Carte-Servo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/louis/Git/Carte-Servo/cmake-build-atmega328p/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

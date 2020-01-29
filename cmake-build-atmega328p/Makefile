@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/louis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/jasmin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/louis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/jasmin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/louis/Git/Carte-Servo
+CMAKE_SOURCE_DIR = /home/jasmin/Documents/Intech/Carte-Servo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/louis/Git/Carte-Servo/cmake-build-atmega328p
+CMAKE_BINARY_DIR = /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/louis/Git/Carte-Servo/cmake-build-atmega328p
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/louis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/jasmin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/louis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/jasmin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles /home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -279,518 +279,356 @@ PLATFORMIO_TEST/fast:
 	$(MAKE) -f CMakeFiles/PLATFORMIO_TEST.dir/build.make CMakeFiles/PLATFORMIO_TEST.dir/build
 .PHONY : PLATFORMIO_TEST/fast
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.o: .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/CounterMaster.o: .pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.o
-
-# target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o
-
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.i: .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.i
-
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.i
-
-# target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.i
-
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.s: .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.s
-
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.s
-
-# target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.s
-
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.o: .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o
-
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterMaster.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.i: .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/CounterMaster.i: .pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterMaster.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.s: .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/CounterMaster.s: .pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterMaster.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.o: .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/CounterSlave.o: .pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterSlave.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.i: .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/CounterSlave.i: .pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterSlave.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.s: .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/CounterSlave.s: .pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterSlave.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.o: .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.o: .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.i: .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.i: .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.s: .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.s: .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.o: .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.o: .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.i: .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.i: .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.i
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.s: .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.s: .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.s
+.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
+.PHONY : .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.o: .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o
+.pio/libdeps/main/I2C-Callables/src/DataManipulation.o: .pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.o
+.PHONY : .pio/libdeps/main/I2C-Callables/src/DataManipulation.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o
+.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o
+.PHONY : .pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.i: .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.i
+.pio/libdeps/main/I2C-Callables/src/DataManipulation.i: .pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.i
+.PHONY : .pio/libdeps/main/I2C-Callables/src/DataManipulation.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.i
+.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.i
+.PHONY : .pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.s: .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.s
+.pio/libdeps/main/I2C-Callables/src/DataManipulation.s: .pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.s
+.PHONY : .pio/libdeps/main/I2C-Callables/src/DataManipulation.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.s
+.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.s
+.PHONY : .pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.o: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o
+.pio/libdeps/main/I2C-Callables/src/I2CC.o: .pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.o
+.PHONY : .pio/libdeps/main/I2C-Callables/src/I2CC.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o
+.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o
+.PHONY : .pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.i: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.i
+.pio/libdeps/main/I2C-Callables/src/I2CC.i: .pio/libdeps/main/I2C-Callables/src/I2CC.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.i
+.PHONY : .pio/libdeps/main/I2C-Callables/src/I2CC.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.i
+.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.i
+.PHONY : .pio/libdeps/main/I2C-Callables/src/I2CC.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.s: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.s
+.pio/libdeps/main/I2C-Callables/src/I2CC.s: .pio/libdeps/main/I2C-Callables/src/I2CC.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.s
+.PHONY : .pio/libdeps/main/I2C-Callables/src/I2CC.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.s
+.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.s
+.PHONY : .pio/libdeps/main/I2C-Callables/src/I2CC.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.o: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o
+.pio/libdeps/main/Servo_ID883/src/avr/Servo.o: .pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/avr/Servo.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o
+.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.i: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.i
+.pio/libdeps/main/Servo_ID883/src/avr/Servo.i: .pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/avr/Servo.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.i
+.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.s: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.s
+.pio/libdeps/main/Servo_ID883/src/avr/Servo.s: .pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/avr/Servo.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.s
+.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.o: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o
+.pio/libdeps/main/Servo_ID883/src/mbed/Servo.o: .pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/mbed/Servo.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o
+.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.i: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.i
+.pio/libdeps/main/Servo_ID883/src/mbed/Servo.i: .pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/mbed/Servo.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.i
+.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.s: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.s
+.pio/libdeps/main/Servo_ID883/src/mbed/Servo.s: .pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/mbed/Servo.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.s
+.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.o: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o
+.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.o: .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o
+.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.i: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.i
+.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.i: .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.i
+.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.s: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.s
+.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.s: .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.s
+.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.o: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o
+.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.o: .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o
+.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.i: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.i
+.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.i: .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.i
+.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.s: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.s
+.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.s: .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.s
+.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.s
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.o: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o
+.pio/libdeps/main/Servo_ID883/src/sam/Servo.o: .pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/sam/Servo.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o
+.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.i: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.i
+.pio/libdeps/main/Servo_ID883/src/sam/Servo.i: .pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/sam/Servo.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.i
+.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.i
 
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.s: .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.s
+.pio/libdeps/main/Servo_ID883/src/sam/Servo.s: .pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/sam/Servo.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.s
+.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.s
 
-.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.o: .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o
+.pio/libdeps/main/Servo_ID883/src/samd/Servo.o: .pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/samd/Servo.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o
+.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o
 
-.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.i: .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.i
+.pio/libdeps/main/Servo_ID883/src/samd/Servo.i: .pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/samd/Servo.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.i
+.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.i
 
-.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.s: .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.s
+.pio/libdeps/main/Servo_ID883/src/samd/Servo.s: .pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/samd/Servo.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.s
+.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.s
 
-.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.o: .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o
+.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.o: .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o
 
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.o
 
 # target to build an object file
-.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o
+.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o
+.PHONY : .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o
 
-.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.i: .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.i
+.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.i: .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.i
 
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.i
-
-# target to preprocess a source file
-.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.i
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.s: .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.s
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.s
-
-# target to generate assembly for a file
-.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.s
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.o: .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.o
-
-# target to build an object file
-.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.i: .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.i
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.i
 
 # target to preprocess a source file
-.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.i
+.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.i
+.PHONY : .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.i
 
-.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.s: .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.s
+.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.s: .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.s
 
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.s
-
-# target to generate assembly for a file
-.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.s
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.o: .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.o
-
-# target to build an object file
-.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.i: .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.i
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.i
-
-# target to preprocess a source file
-.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.i
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.s: .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.s
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.s
 
 # target to generate assembly for a file
-.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.s
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.o: .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.o
-
-# target to build an object file
-.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.i: .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.i
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.i
-
-# target to preprocess a source file
-.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.i
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.s: .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.s
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.s
-
-# target to generate assembly for a file
-.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.s
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.o: .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.o
-
-# target to build an object file
-.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.i: .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.i
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.i
-
-# target to preprocess a source file
-.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.i
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.s: .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.s
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.s
-
-# target to generate assembly for a file
-.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.s
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.o: .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.o
-
-# target to build an object file
-.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.i: .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.i
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.i
-
-# target to preprocess a source file
-.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.i
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.i
-
-.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.s: .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.s
-
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.s
-
-# target to generate assembly for a file
-.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.s
-.PHONY : .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.s
+.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.s
+.PHONY : .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.s
 
 src/Orders.o: src/Orders.cpp.o
 
@@ -867,63 +705,45 @@ help:
 	@echo "... PLATFORMIO_CLEAN"
 	@echo "... PLATFORMIO_DEVICE_LIST"
 	@echo "... PLATFORMIO_TEST"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.s"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.o"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.i"
-	@echo "... .pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.s"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.o"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.i"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.s"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.o"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.i"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.s"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.o"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.i"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.s"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.o"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.i"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.s"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.o"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.i"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.s"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.o"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.i"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.s"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.o"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.i"
-	@echo "... .pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.s"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/CounterMaster.o"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/CounterMaster.i"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/CounterMaster.s"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/CounterSlave.o"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/CounterSlave.i"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/CounterSlave.s"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.o"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.i"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.s"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.o"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.i"
+	@echo "... .pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.s"
+	@echo "... .pio/libdeps/main/I2C-Callables/src/DataManipulation.o"
+	@echo "... .pio/libdeps/main/I2C-Callables/src/DataManipulation.i"
+	@echo "... .pio/libdeps/main/I2C-Callables/src/DataManipulation.s"
+	@echo "... .pio/libdeps/main/I2C-Callables/src/I2CC.o"
+	@echo "... .pio/libdeps/main/I2C-Callables/src/I2CC.i"
+	@echo "... .pio/libdeps/main/I2C-Callables/src/I2CC.s"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/avr/Servo.o"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/avr/Servo.i"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/avr/Servo.s"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/mbed/Servo.o"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/mbed/Servo.i"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/mbed/Servo.s"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.o"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.i"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/megaavr/Servo.s"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.o"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.i"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/nrf52/Servo.s"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/sam/Servo.o"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/sam/Servo.i"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/sam/Servo.s"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/samd/Servo.o"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/samd/Servo.i"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/samd/Servo.s"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.o"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.i"
+	@echo "... .pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.s"
 	@echo "... src/Orders.o"
 	@echo "... src/Orders.i"
 	@echo "... src/Orders.s"

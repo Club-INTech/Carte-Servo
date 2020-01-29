@@ -26,15 +26,19 @@ void setup() {
     registerRPC(Valve,1);
     registerRPC(Suck,2);
 
-#if defined(main)
+#if defined(MAIN)
     registerRPC(Gate,3);
-    Servo* servo_gate_gauche;
-    servo_gate_gauche->attach(PIN_SERVO_GATE_GAUCHE);
-    Servo* servo_gate_droite;
-    servo_gate_droite->attach(PIN_SERVO_GATE_DROITE);
-#endif
-    Servo* servo_gate_gauche;
+    initServos();
+
     startI2CC(1);
+#endif
+#if defined(slave_avant)
+    startI2CC(2);
+#endif
+#if defined(slave_arriere)
+    startI2CC(3);
+#endif
+
 
 }
 

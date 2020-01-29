@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/louis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/jasmin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/louis/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/jasmin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/louis/Git/Carte-Servo
+CMAKE_SOURCE_DIR = /home/jasmin/Documents/Intech/Carte-Servo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/louis/Git/Carte-Servo/cmake-build-atmega328p
+CMAKE_BINARY_DIR = /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Z_DUMMY_TARGET.dir/depend.make
@@ -57,330 +57,240 @@ include CMakeFiles/Z_DUMMY_TARGET.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o: ../.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o: ../.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o: ../.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o: ../.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o: ../.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o: ../.pio/libdeps/main/I2C-Callables/src/I2CC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o: ../.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o: ../.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o: ../.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o: ../.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o: ../.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o: ../.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o: ../.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o: ../.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o: ../.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.i"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o: ../.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o: ../.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o: ../.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o: ../.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o: ../.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o: ../.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o -c /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.s"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o: ../src/Orders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o -c /home/louis/Git/Carte-Servo/src/Orders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/src/Orders.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/src/Orders.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.i
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/src/Orders.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/src/Orders.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.s
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/src/Orders.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o -c /home/louis/Git/Carte-Servo/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o"
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o -c /home/jasmin/Documents/Intech/Carte-Servo/src/main.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/louis/Git/Carte-Servo/src/main.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jasmin/Documents/Intech/Carte-Servo/src/main.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s"
-	/home/louis/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/louis/Git/Carte-Servo/src/main.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s
+	/home/jasmin/.platformio/packages/toolchain-atmelavr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jasmin/Documents/Intech/Carte-Servo/src/main.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s
 
 # Object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_OBJECTS = \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o"
 
 # External object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_EXTERNAL_OBJECTS =
 
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterMaster.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/CounterSlave.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/DataManipulation.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables/src/I2CC.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterMaster.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/CounterSlave.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkMaster.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/examples/RemoteBlinkSlave.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/DataManipulation.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/I2C-Callables@src-7ae4aa591acc0c2c7c618c7bdcb9b070/src/I2CC.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/avr/Servo.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/mbed/Servo.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/megaavr/Servo.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/nrf52/Servo.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/sam/Servo.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/samd/Servo.cpp.o
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/ATmega328P/Servo_ID883/src/stm32f4/Servo.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterMaster.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/CounterSlave.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkMaster.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/examples/RemoteBlinkSlave.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/DataManipulation.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/I2C-Callables/src/I2CC.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/avr/Servo.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/mbed/Servo.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/megaavr/Servo.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/nrf52/Servo.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/sam/Servo.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/samd/Servo.cpp.o
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/main/Servo_ID883/src/stm32f4/Servo.cpp.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/Orders.cpp.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.o
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable Z_DUMMY_TARGET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Z_DUMMY_TARGET"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Z_DUMMY_TARGET.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -393,6 +303,6 @@ CMakeFiles/Z_DUMMY_TARGET.dir/clean:
 .PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/clean
 
 CMakeFiles/Z_DUMMY_TARGET.dir/depend:
-	cd /home/louis/Git/Carte-Servo/cmake-build-atmega328p && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/louis/Git/Carte-Servo /home/louis/Git/Carte-Servo /home/louis/Git/Carte-Servo/cmake-build-atmega328p /home/louis/Git/Carte-Servo/cmake-build-atmega328p /home/louis/Git/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jasmin/Documents/Intech/Carte-Servo /home/jasmin/Documents/Intech/Carte-Servo /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p /home/jasmin/Documents/Intech/Carte-Servo/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/depend
 

@@ -14,8 +14,9 @@ using namespace I2CC;
 BufferedData* Valve(BufferedData& args);
 BufferedData* Suck(BufferedData& args);
 
-#if defined(main)
+#if defined(MAIN)
 BufferedData* Gate(BufferedData& args);
+void initServos();
 #endif
 
 

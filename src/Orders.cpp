@@ -30,18 +30,21 @@ BufferedData* Valve(BufferedData& args) {
         case 5:
             digitalWrite(VALVE_5, state);
             break;
+        case 6:
+            digitalWrite(VALVE_6, state);
+            break;
     }
     return nullptr;
 }
 
 
 BufferedData* Suck(BufferedData& args) {
-    uint8_t idValve;
-    getData<uint8_t>(idValve, &args);
+    uint8_t idPump;
+    getData<uint8_t>(idPump, &args);
     bool state;
     getData<bool>(state, &args);
 
-    switch(idValve){
+    switch(idPump){
         case 0:
             digitalWrite(PUMP_0, state);
             break;
@@ -60,12 +63,20 @@ BufferedData* Suck(BufferedData& args) {
         case 5:
             digitalWrite(PUMP_5, state);
             break;
+        case 6:
+            digitalWrite(PUMP_6, state);
+            break;
     }
+
+
+
     return nullptr;
 }
 
 
-#if defined(main)
+#if defined(MAIN)
+Servo* servo_gate_droite;
+Servo* servo_gate_gauche;
 
 BufferedData* Gate(BufferedData& args) {
     uint8_t angle;
@@ -74,6 +85,11 @@ BufferedData* Gate(BufferedData& args) {
     servo_gate_gauche->write(angle);
 
     return nullptr;
+}
+
+void initServos(){
+    servo_gate_gauche->attach(PIN_SERVO_GATE_GAUCHE);
+    servo_gate_droite->attach(PIN_SERVO_GATE_DROITE);
 }
 
 #endif
