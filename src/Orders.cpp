@@ -73,6 +73,16 @@ BufferedData* Suck(BufferedData& args) {
     return nullptr;
 }
 
+BufferedData* DiodeOn(BufferedData& args) {
+    pinMode(A0, OUTPUT);
+    digitalWrite(A0, HIGH);
+    return nullptr;
+}
+BufferedData* DiodeOff(BufferedData& args) {
+    pinMode(A0, OUTPUT);
+    digitalWrite(A0, LOW);
+    return nullptr;
+}
 
 #if defined(MAIN)
 Servo* servo_gate_droite;

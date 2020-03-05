@@ -13,6 +13,8 @@ using namespace I2CC;
 
 BufferedData* Valve(BufferedData& args);
 BufferedData* Suck(BufferedData& args);
+BufferedData* DiodeOn(BufferedData& args);
+BufferedData* DiodeOff(BufferedData& args);
 
 #if defined(MAIN)
 BufferedData* Gate(BufferedData& args);
