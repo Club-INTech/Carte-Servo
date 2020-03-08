@@ -28,16 +28,16 @@ const uint8_t PIN_SERVO_GATE_DROITE = SERVO_1;
 
 #endif
 
-const uint8_t VALVE_0 = 0;
+const uint8_t VALVE_0 = 2;
 const uint8_t VALVE_1 = 0;
-const uint8_t VALVE_2 = 0;
+const uint8_t VALVE_2 = A2;
 const uint8_t VALVE_3 = 0;
 const uint8_t VALVE_4 = 0;
 const uint8_t VALVE_5 = 0;
 
-const uint8_t PUMP_0 = 0;
-const uint8_t PUMP_1 = 0;
-const uint8_t PUMP_2 = 0;
+const uint8_t PUMP_0 = 3;
+const uint8_t PUMP_1 = 1;
+const uint8_t PUMP_2 = A3;
 const uint8_t PUMP_3 = 0;
 const uint8_t PUMP_4 = 0;
 const uint8_t PUMP_5 = 0;

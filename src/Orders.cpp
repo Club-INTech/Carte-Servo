@@ -7,9 +7,9 @@
 BufferedData* Valve(BufferedData& args) {
 
     uint8_t idValve;
-    getData<uint8_t>(idValve, &args);
+    getData<uint8_t>(idValve, &args);       //getData permet de récupèrer les données du BufferedData. idValve va prendre la valeur de ce qui a été envoyé
     bool state;
-    getData<bool>(state, &args);
+    getData<bool>(state, &args);            //state va prendre la valeur booléenne de la prochaine donnée émise (à supposer que l'id de la valve et son état ont été envoyé dans le bon ordre...)
 
     switch(idValve){
         case 0:
@@ -30,9 +30,11 @@ BufferedData* Valve(BufferedData& args) {
         case 5:
             digitalWrite(VALVE_5, state);
             break;
+#if defined(MAIN)
         case 6:
             digitalWrite(VALVE_6, state);
             break;
+#endif
     }
     return nullptr;
 }
@@ -63,9 +65,11 @@ BufferedData* Suck(BufferedData& args) {
         case 5:
             digitalWrite(PUMP_5, state);
             break;
+#if defined(MAIN)
         case 6:
             digitalWrite(PUMP_6, state);
             break;
+#endif
     }
 
 
