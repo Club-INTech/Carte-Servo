@@ -23,7 +23,7 @@ const uint8_t VALVE_6 = PIN_0;
 const uint8_t PUMP_6 = PIN_1;
 
 
-const uint8_t PIN_SERVO_GATE_GAUCHE = SERVO_0;
+const uint8_t PIN_SERVO_GATE_GAUCHE = SERVO_2;
 const uint8_t PIN_SERVO_GATE_DROITE = SERVO_1;
 
 #endif

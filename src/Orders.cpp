@@ -89,14 +89,15 @@ BufferedData* DiodeOff(BufferedData& args) {
 }
 
 #if defined(MAIN)
-Servo* servo_gate_droite;
-Servo* servo_gate_gauche;
+Servo* servo_gate_droite = new Servo;
+Servo* servo_gate_gauche = new Servo;
 
 BufferedData* Gate(BufferedData& args) {
     uint8_t angle;
     getData<uint8_t>(angle, &args);
     servo_gate_droite->write(angle);
     servo_gate_gauche->write(angle);
+
 
     return nullptr;
 }

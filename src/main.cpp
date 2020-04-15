@@ -43,6 +43,8 @@ void setup() {
 #if defined(MAIN)
     pinMode(VALVE_6, OUTPUT);
     pinMode(PUMP_6,OUTPUT);
+    pinMode(SERVO_1, OUTPUT);
+    pinMode(SERVO_2, OUTPUT);
 #endif
 
 
