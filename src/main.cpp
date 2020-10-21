@@ -44,7 +44,7 @@ void setup() {
     pinMode(VALVE_6, OUTPUT);
     pinMode(PUMP_6,OUTPUT);
     pinMode(SERVO_1, OUTPUT);
-    pinMode(SERVO_2, OUTPUT);
+    pinMode(SERVO_0, OUTPUT);
 #endif
 
 
@@ -59,7 +59,7 @@ void setup() {
 
 
     digitalWrite(A1,HIGH);
-    startI2CC(1);
+    startI2CC(4);
 #endif
 #if defined(slave_avant)
     startI2CC(2);
