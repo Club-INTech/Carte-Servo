@@ -28,19 +28,19 @@ const uint8_t PIN_SERVO_GATE_DROITE = SERVO_0;
 
 #endif
 
-const uint8_t VALVE_0 = 2;
+const uint8_t VALVE_0 = A2;
 const uint8_t VALVE_1 = 0;
-const uint8_t VALVE_2 = A2;
-const uint8_t VALVE_3 = 0;
+const uint8_t VALVE_2 = 2;
+const uint8_t VALVE_3 = A2;
 const uint8_t VALVE_4 = 0;
-const uint8_t VALVE_5 = 0;
+const uint8_t VALVE_5 = 2;
 
-const uint8_t PUMP_0 = 3;
+const uint8_t PUMP_0 = A3;
 const uint8_t PUMP_1 = 1;
-const uint8_t PUMP_2 = A3;
-const uint8_t PUMP_3 = 0;
-const uint8_t PUMP_4 = 0;
-const uint8_t PUMP_5 = 0;
+const uint8_t PUMP_2 = 3;
+const uint8_t PUMP_3 = A3;
+const uint8_t PUMP_4 = 1;
+const uint8_t PUMP_5 = 3;
 
 
 #endif //CARTE_SERVO_PINMAPPING_H
