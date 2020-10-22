@@ -96,8 +96,10 @@ BufferedData* Gate(BufferedData& args) {
     uint8_t angle;
     getData<uint8_t>(angle, &args);
     servo_gate_droite->write(angle);
-    servo_gate_gauche->write(angle);
-
+    float angleDroite;
+    angleDroite = 180 - angle;
+    servo_gate_gauche->write(angleDroite);
+    digitalWrite(A1,LOW);
 
     return nullptr;
 }
