@@ -43,6 +43,7 @@ void setup() {
 #if defined(MAIN)
     pinMode(VALVE_6, OUTPUT);
     pinMode(PUMP_6,OUTPUT);
+    pinMode(SERVO_2, OUTPUT);
     pinMode(SERVO_1, OUTPUT);
     pinMode(SERVO_0, OUTPUT);
 #endif
@@ -55,6 +56,8 @@ void setup() {
 
 #if defined(MAIN)
     registerRPC(Gate,3);
+    registerRPC(FlagDown,6);
+    registerRPC(FlagUp,7);
     initServos();
 
 

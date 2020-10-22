@@ -91,6 +91,8 @@ BufferedData* DiodeOff(BufferedData& args) {
 #if defined(MAIN)
 Servo* servo_gate_droite = new Servo;
 Servo* servo_gate_gauche = new Servo;
+Servo* servo_flag = new Servo;
+
 
 BufferedData* Gate(BufferedData& args) {
     uint8_t angle;
@@ -104,9 +106,28 @@ BufferedData* Gate(BufferedData& args) {
     return nullptr;
 }
 
+BufferedData* FlagDown(BufferedData& args) {
+    digitalWrite(A0,HIGH);
+    uint8_t angle;
+    angle = 180;
+    servo_flag->write(angle);
+    return nullptr;
+}
+
+BufferedData* FlagUp(BufferedData& args) {
+    digitalWrite(A0,HIGH);
+    uint8_t angle;
+    angle = 90;
+    servo_flag->write(angle);
+    return nullptr;
+}
+
+
 void initServos(){
     servo_gate_gauche->attach(PIN_SERVO_GATE_GAUCHE);
     servo_gate_droite->attach(PIN_SERVO_GATE_DROITE);
+    servo_flag->attach(PIN_SERVO_FLAG);
+
 }
 
 #endif

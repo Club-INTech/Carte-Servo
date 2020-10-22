@@ -18,6 +18,9 @@ BufferedData* DiodeOff(BufferedData& args);
 
 #if defined(MAIN)
 BufferedData* Gate(BufferedData& args);
+BufferedData* FlagDown(BufferedData& args);
+BufferedData* FlagUp(BufferedData& args);
+
 void initServos();
 #endif
 
