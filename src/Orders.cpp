@@ -126,6 +126,9 @@ BufferedData* FlagUp(BufferedData& args) {
 void initServos(){
     servo_gate_gauche->attach(PIN_SERVO_GATE_GAUCHE);
     servo_gate_droite->attach(PIN_SERVO_GATE_DROITE);
+    servo_gate_gauche->write(15);
+    servo_gate_droite->write(165);
+
     servo_flag->attach(PIN_SERVO_FLAG);
 
 }
